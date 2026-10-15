@@ -29,7 +29,7 @@ app = FastAPI(
 def inicio() -> dict:
     # FastAPI convierte este diccionario en una respuesta JSON.
     return {
-        "mensaje": "API de inscripciones en funcionamiento"
+        "mensaje": "API de inscripciones - Versión 2.0 en funcionamiento"
     }
 # Endpoint sencillo para comprobar el estado del servicio.
 # Más adelante podrá utilizarse como chequeo de salud.
